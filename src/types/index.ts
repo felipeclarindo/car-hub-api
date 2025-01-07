@@ -15,6 +15,11 @@ export interface DescriptionProps {
   status: string;
   name: string;
   description: string;
+  endpoints: {
+    url: string;
+    description: string;
+    method: string;
+  }[];
   developer: {
     name: string;
     github: string;
