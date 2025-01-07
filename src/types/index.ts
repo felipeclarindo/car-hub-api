@@ -27,4 +27,6 @@ export interface DescriptionProps {
   };
 }
 
-export interface YearsOfProductionProps extends FuelProps {}
+export interface YearsOfProductionProps extends Omit<FuelProps, 'title'> {
+  year: string;
+}
