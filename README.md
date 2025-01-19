@@ -1,19 +1,21 @@
+🌍 [Leia em Português](README.pt-BR.md)
+
 # Car Hub Api
 
-Api to the car hub projects developed with NestJS and typescript.
+Api to the car hub project developed with `NestJS` and `typescript`.
 
 ## Technologies Used
 
-`NestJS` - Frameworks to create apis.
-`typescript` - JS Superset.
+- `NestJS` - Frameworks to create apis.
+- `typescript` - JS Superset.
 
 ## Api Endpoints
 
-- `/api` - description of the api.
-- `/api/fuels` - Fuels available to cars.
-- `/api/manufacturers` - Manufacturers of cars.
-- `/api/footer-links` - footer links to use in front end.
-- `/api/years-of-production` - Cars year of production.
+- `/api` - description of the api. (GET)
+- `/api/fuels` - Fuels available to cars. (GET)
+- `/api/manufacturers` - Manufacturers of cars. (GET)
+- `/api/footer-links` - footer links to use in front end. (GET)
+- `/api/years-of-production` - Cars year of production. (GET)
 
 ## Running Api
 
@@ -29,15 +31,15 @@ git clone https://github.com/felipeclarindo/car-hub-api.git
 npm install
 ```
 
-4. Run Server:
+3. Run Server:
 
 ```bash
 npm run start
 ```
 
-5. Access API in http://localhost:5000/api.
+4. Access API in http://localhost:5000/api.
 
-6. Access [CarHub Repository](https://github.com/felipeclarindo/car-hub.git) and run the front end.
+5. Access [CarHub Repository](https://github.com/felipeclarindo/car-hub.git) and run the front end.
 
 ## Contribution
 
